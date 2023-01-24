@@ -1,20 +1,18 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-width:500px;
-height:500px;
 text-align:center;
-margin-left:auto;
-margin-right:auto;
-background-color: #eacbe3;
+
 `;
 
 export const Card = styled.div` 
 display:flex;
-flex-direction:column;\
-
-
-
+flex-direction:column;
+margin-left:auto;
+margin-right:auto;
+border: solid 3px #e2e9f0;
+width: 450px;
+margin-top:20px;
 `;
 
 export const Avatar = styled.img`
@@ -23,7 +21,9 @@ width:200px;
 border-radius: 100%;
 padding-top: 40px;
 margin: auto;
+margin-top: 40px;
 margin-bottom: 40px;
+background-color: #eacbe3;
 `;
 
 export const StatList = styled.ul`
@@ -32,20 +32,44 @@ list-style:none;
 justify-content: center;
 margin:0;
 padding:0;
+margin-bottom: 40px;
 `;
 
 export const StatItem = styled.li`
-padding:15px;
-background-color: #fbccc6;
-border: solid 1px #c8d0c6;
+display: flex;
+flex-direction: column;
+width: 150px;
+height:100px;
+justify-content: center;
+background-color: #f3f6f9;
+border: solid 1px #e2e9f0;
 `;
 
 export const Text = styled.p`
 margin:0;
+color: #adb5bf;
+&:nth-child(2){
+    color: #000026;
+    font-size: 24px;
+    font-weight:700;
+
+}
 &:not(:last-child){
     margin-bottom: 20px;
 }
 &:nth-child(4){
     margin-bottom: 40px;
 }
+`;
+
+export const StatName = styled.span`
+color: #adb5bf;
+margin-bottom:10px;
+
+`;
+
+export const Quantity = styled.span`
+color: #000026;
+font-size: 20px;
+font-weight:700;
 `;

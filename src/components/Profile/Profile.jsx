@@ -1,4 +1,5 @@
-import {Avatar,Card,Container,StatList,StatItem,Text} from './Profile.styled'
+import {Avatar,Card,Container,StatList,StatItem,Text,StatName,Quantity} from './Profile.styled'
+import PropTypes from 'prop-types';
 
 export default function Profile({username,tag,location,avatar,stats}) {
   return <Container>
@@ -14,19 +15,27 @@ export default function Profile({username,tag,location,avatar,stats}) {
 
   <StatList>
     <StatItem>
-      <span>Followers</span>
-      <span>{stats.followers}</span>
+      <StatName>Followers</StatName>
+      <Quantity>{stats.followers}</Quantity>
     </StatItem>
     <StatItem>
-      <span>Views</span>
-      <span>{stats.views}</span>
+      <StatName>Views</StatName>
+      <Quantity>{stats.views}</Quantity>
     </StatItem>
     <StatItem>
-      <span>Likes</span>
-      <span>{stats.likes}</span>
+      <StatName>Likes</StatName>
+      <Quantity>{stats.likes}</Quantity>
     </StatItem>
   </StatList>
 </Container>
  
 }
 
+
+Profile.propTypes={
+  username: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  avatar: PropTypes.string.isRequired,
+  stats: PropTypes.objectOf(PropTypes.number.isRequired)
+}
