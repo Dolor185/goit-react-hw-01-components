@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Dolor185.github.io/goit-react-hw-01-components/static/css/main.7acaea2f.css",
-    "main.js": "/Dolor185.github.io/goit-react-hw-01-components/static/js/main.a05d5abe.js",
-    "index.html": "/Dolor185.github.io/goit-react-hw-01-components/index.html",
-    "main.7acaea2f.css.map": "/Dolor185.github.io/goit-react-hw-01-components/static/css/main.7acaea2f.css.map",
-    "main.a05d5abe.js.map": "/Dolor185.github.io/goit-react-hw-01-components/static/js/main.a05d5abe.js.map"
+    "main.css": "/dolor185.github.io/goit-react-hw-01-components/static/css/main.7acaea2f.css",
+    "main.js": "/dolor185.github.io/goit-react-hw-01-components/static/js/main.1299a925.js",
+    "index.html": "/dolor185.github.io/goit-react-hw-01-components/index.html",
+    "main.7acaea2f.css.map": "/dolor185.github.io/goit-react-hw-01-components/static/css/main.7acaea2f.css.map",
+    "main.1299a925.js.map": "/dolor185.github.io/goit-react-hw-01-components/static/js/main.1299a925.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.a05d5abe.js"
+    "static/js/main.1299a925.js"
   ]
 }
