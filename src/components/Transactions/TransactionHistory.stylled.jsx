@@ -24,7 +24,10 @@ margin: 0;
 `;
 
 export const Table = styled.table`
+margin-left: auto;
+margin-right: auto;
 border-collapse: collapse;
+width: 600px;
 `;
 
 export const HeadCell = styled.th`
